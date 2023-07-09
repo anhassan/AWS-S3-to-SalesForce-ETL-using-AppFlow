@@ -9,5 +9,5 @@
 The architecture diagram attached below explains the design and working of the implementation pictorially 
 
 <p align="center">
-  <img src="assets/s3_to_salesforce_etl_architecture.jpg" />
+  <img src="assets/s3_to_salesforce_etl_architecture.PNG" />
 </p>
