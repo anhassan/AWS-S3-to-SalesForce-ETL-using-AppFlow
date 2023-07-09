@@ -1,0 +1,17 @@
+FIELD LABEL	FIELD NAME	DATA TYPE
+Action Number	Name	Auto Number
+Case	Case__c	Lookup(Case)
+Created By	CreatedById	Lookup(User)
+Created Date	CreatedDate	Date/Time (yyyy-MM-ddTHH:mm:ssZ)
+Currency	CurrencyIsoCode	Picklist
+Description	Description__c	Long Text Area(32768)
+Due Time	Due_Time__c	Date/Time
+Last Modified By	LastModifiedById	Lookup(User)
+Last Modified By	LastModifiedById	Lookup(User)
+Last Modified Date	LastModifiedDate	Date/Time (yyyy-MM-ddTHH:mm:ssZ)
+Owner	OwnerId	"Lookup(User,Group)"
+Priority	Priority__c	Picklist
+Status	Status__c	Picklist
+Subject	Subject__c	Text(255)
+Sub-Type	Sub_Type__c	Picklist
+Type	Type__c	Picklist

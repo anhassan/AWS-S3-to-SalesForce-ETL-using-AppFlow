@@ -1,0 +1,37 @@
+FIELD LABEL	FIELD NAME	DATA TYPE
+Access Comments	Access_Comments__c	Long Text (32000 ch)
+Access Methods	Access_Methods__c	"Picklist:
+Collinson Network
+Alternative Network
+Other"
+Account Name	Name	Text (80 ch)
+Bank Country	c2g__CODABankCountry__c	Text(40)
+Bank Fax	c2g__CODABankFax__c	Phone
+Bank IBAN Number	c2g__CODABankIBANNumber__c	Text(40)
+Bank Name	c2g__CODABankName__c	Text(255)
+Bank Phone	c2g__CODABankPhone__c	Phone
+Bank Sort Code	c2g__CODABankSortCode__c	Text(20)
+Bank State/Province	c2g__CODABankStateProvince__c	Text(20)
+Bank Street	c2g__CODABankStreet__c	Text Area(255)
+Bank SWIFT Number	c2g__CODABankSWIFTNumber__c	Text(40)
+Bank Zip/Postal Code	c2g__CODABankZipPostalCode__c	Text(20)
+Billing City	BillingCity	Text (40 ch)
+Billing Country	BillingCountry	Text (80 ch)
+Billing Postal Code	BillingPostalCode	Text (20 ch)
+Billing State	BillingState	Text (80 ch)
+Billing Street	BillingStreet	Text (255 ch)
+Created By	CreatedById	Lookup(User)
+Created Date	CreatedDate	Date/Time (yyyy-MM-ddTHH:mm:ssZ)
+Description	Description	Long Text (32000 ch)
+Email Provider	Email_Provider__c	email
+Fax	Fax	Phone
+Fee Matrix	Fee_Matri__c	LookUp(Fee Matrix)
+Last Modified By	LastModifiedById	Lookup(User)
+Last Modified Date	LastModifiedDate	Date/Time (yyyy-MM-ddTHH:mm:ssZ)
+Owner	OwnerId	"Lookup(User,Group)"
+Payment Terms	Payment_Terms__c	Picklist
+Phone	Phone	Phone
+Provider Identifier	Provider_Identifier__c	Text Area (External ID)
+Provider Type	Provider_Type__c	"Picklist:
+Provider"
+Ranking	Ranking__c	Integer
